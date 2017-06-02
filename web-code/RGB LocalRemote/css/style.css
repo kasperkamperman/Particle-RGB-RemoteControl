@@ -1,0 +1,23 @@
+.mdl-card__title {
+    color: #fff;
+    height: 176px;
+}
+
+.mdl-layout__content {
+    padding: 8px;
+    flex: none;
+}
+
+.mdl-card {
+    width: 100%;
+}
+
+.mdl-card__actions {
+    display: flex;
+    box-sizing:border-box;
+    align-items: center;
+}
+
+.mdl-chip {
+    margin-left: 8px;
+}
