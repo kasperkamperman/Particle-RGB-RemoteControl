@@ -1,6 +1,6 @@
 # Particle Photon RGB Remote Control (Local/Cloud)
 
-This is a demonstrator app. It shows how to control the Particle RGB led over the Cloud and over a Local network. 
+This is a demonstrator web application. It shows how to control the Particle RGB led over the Cloud and over a Local network [See the video on YouTube.](https://youtu.be/cAb57_Jmu3o). 
 
 More information about the creation and development process in the articles on my website:
 
