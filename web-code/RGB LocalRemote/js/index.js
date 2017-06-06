@@ -21,8 +21,9 @@
 var photonServerURL = "http://myphoton.local/";  
 
 // variables for rate limit
-// we set the local limit on 50ms (20 times a second)
-var rateLimitTimeStep = 50;
+// we set the local limit 15 times a second (66ms)
+var rateLimitPerSecond = 15;
+var rateLimitTimeStep  = 1000/rateLimitPerSecond;
 var rateLimitStartTime;
 var rateLimitTimeOut;
 
@@ -58,7 +59,7 @@ function ajaxRequest(requestType, url, params, callBackFunction) {
     
     var xhttp = new XMLHttpRequest();
 
-    xhttp.timeout = 1500;
+    xhttp.timeout = 5000;
         
     xhttp.ontimeout = function(e) {
         showSnackbar('Is your Particle device online?'); 

@@ -1,7 +1,10 @@
 /*  Communicate with Particle Variables and Functions in Vanilla JS 
     (so no other frameworks like jQuery needed). 
     
-    Copyleft 19-05-2017 - http://www.kasperKamperman.com
+    Copyleft 01-06-2017 - http://www.kasperKamperman.com
+    
+    More info:
+    https://www.kasperkamperman.com/blog/particle-photon-rgb-remote-cloud/
 */
 
 // take in account that if you share this site public, your accessToken and deviceId will also be public.
@@ -33,7 +36,7 @@ var saturation;
 var brightness;
 
 // variables for rate limit
-// we set the local limit 2 times a second (500ms)
+// we set the cloud limit at 2 times a second (500ms)
 var rateLimitPerSecond = 2;
 var rateLimitTimeStep  = 1000/rateLimitPerSecond;
 var rateLimitStartTime;
