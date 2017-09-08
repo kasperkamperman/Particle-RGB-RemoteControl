@@ -46,10 +46,11 @@ const String remote_url = "http://dev.kasperkamperman.com/localremote/";
 // "<link rel=\"stylesheet\" href=\"https://storage.googleapis.com/code.getmdl.io/1.3.0/material.grey-amber.min.css\">"
 // "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">"
 // "<link rel=\"stylesheet\" href=\"https://dev.kasperkamperman.com/localremote/css/style.css\">"
-// "<script src=\"https://dev.kasperkamperman.com/localremote/js/rangetouch.js\"></script>"
 // "<script src=\"https://dev.kasperkamperman.com/localremote/js/index_content.js\"></script>"
 // "<script src=\"https://dev.kasperkamperman.com/localremote/js/index.js\"></script>"
-// "</head> <body></body> </html> ";
+// "</head> <body>"
+// "<script src=\"https://dev.kasperkamperman.com/localremote/js/rangetouch.js\"></script>"
+// "</body> </html>";
 
 MDNS mdns;
 WebServer webserver("", 80);
