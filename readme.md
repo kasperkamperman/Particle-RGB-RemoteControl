@@ -1,4 +1,4 @@
-# Particle Photon RGB Remote Control (Local/Cloud)
+# Particle Photon RGB Remote Control (Local/Cloud/Online)
 
 This is a demonstrator web application. It shows how to control the Particle RGB led over the Cloud and over a Local network [See the video on YouTube.](https://youtu.be/cAb57_Jmu3o). 
 
@@ -29,5 +29,12 @@ _I don't consider the used Webduino library stable enough. It doesn't support mu
 	* You can find your accessToken in Particle build under Settings.
 4. Open the index.html file on your local system.
 5. Play around with the sliders to control the color of the RGB indicator led on the Photon.
+
+## Quick Start Cloud Remote Online ##
+
+See the steps above, you online need to install it on a (local) webserver that supports PHP. 
+deviceID and accessToken are hidden in the php code (api.php), so they won't be visible to the end-user. 
+In this way you can put a remote control publically online, without someone get more access to your device than
+desirable. 
 
 Have fun!
