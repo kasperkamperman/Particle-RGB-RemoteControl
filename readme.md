@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Particle Photon RGB Remote Control (Local/Cloud/SoftAP)
+=======
+# Particle Photon RGB Remote Control (Local/Cloud/Online)
+>>>>>>> c8a4ede0d15f6285725a4d13ec2b2926efaa7860
 
 This is a demonstrator web application. It shows how to control the Particle RGB led over the Cloud and over a Local network [See the video on YouTube.](https://youtu.be/cAb57_Jmu3o). 
 
@@ -30,9 +34,20 @@ _I don't consider the used Webduino library stable enough. It doesn't support mu
 4. Open the index.html file on your local system.
 5. Play around with the sliders to control the color of the RGB indicator led on the Photon.
 
+<<<<<<< HEAD
 ## SoftAP Remote ##
 
 Upload the code to your Particle with an offline tool (https://po-util.com). You can control the RGB led directly by connecting
 to the PHOTON access-point. By opening http://192.168.0.1/index.htm in your browser. 
 
 Have fun!
+=======
+## Quick Start Cloud Remote Online ##
+
+See the steps above, you online need to install it on a (local) webserver that supports PHP. 
+deviceID and accessToken are hidden in the php code (api.php), so they won't be visible to the end-user. 
+In this way you can put a remote control publically online, without someone get more access to your device than
+desirable. 
+
+Have fun!
+>>>>>>> c8a4ede0d15f6285725a4d13ec2b2926efaa7860
